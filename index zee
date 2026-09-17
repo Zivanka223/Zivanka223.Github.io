@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zivanka Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- ================= NAVIGATION ================= -->
+    <nav>
+        <div class="logo">PORTFOLIO.</div>
+        <div class="nav-links">
+            <a href="#about">ABOUT ME</a>
+            <a href="#creative">CREATIVE SPACE</a>
+        </div>
+    </nav>
+    <!-- ================= ABOUT ME ================= -->
+    <section class="about" id="about">
+        <!-- PHOTO -->
+        <div class="about-photo">
+            <img src="images/ji.PNG" alt="Zivanka">
+        </div>
+        <!-- PERSONAL INFORMATION -->
+        <div class="about-info">
+            <p class="small-title">HELLO, I'M</p>
+            <h1>
+                Zivanka<br>
+                Herdiansyah Putri
+            </h1>
+            <div class="line"></div>
+            <div class="information">
+                <div class="info-row">
+                    <span>Class</span>
+                    <p>XI DKV 1</p>
+                </div>
+                <div class="info-row">
+                    <span>School</span>
+                    <p>SMK Negeri 1 Tangerang</p>
+                </div>
+                <div class="info-row">
+                    <span>Hobby</span>
+                    <p>Drawing and Painting</p>
+                </div>
+                <div class="info-row">
+                    <span>Instagram</span>
+                    <p>@everydaywwws</p>
+                </div>
+                <div class="info-row">
+                    <span>Gmail</span>
+                    <p>zivankahcp@gmail.com</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ================= CREATIVE SPACE ================= -->
+    <section class="creative" id="creative">
+        <!-- SIDE DECORATION -->
+        
+        <div class="creative-side right-side">
+            <p>SELECTED</p>
+            <p>CREATIONS</p>
+        </div>
+        <!-- SECTION TITLE -->
+        <div class="section-title">
+            <p>MY COLLECTION</p>
+            <h2>Creative Space</h2>
+        </div>
+        <!-- ================= VISUALS ================= -->
+        <div class="category">
+            <span>01</span>
+            <h3>ARTWORK</h3>
+        </div>
+        <div class="gallery">
+            <div class="gallery-item">
+                <img src="images/karya1.PNG" alt="Visual 1">
+            </div>
+            <div class="gallery-item">
+                <img src="images/karya2.PNG" alt="Visual 2">
+            </div>
+            <div class="gallery-item">
+                <img src="images/karya3.PNG" alt="Visual 3">
+            </div>
+            <div class="gallery-item">
+                <img src="images/karya4.PNG" alt="Visual 4">
+            </div>
+        </div>
+        <!-- ================= PHOTOGRAPHY ================= -->
+        <div class="category photography-title">
+            <span>02</span>
+            <h3>PHOTOGRAPHY</h3>
+        </div>
+        <div class="gallery">
+            <div class="gallery-item">
+                <img src="images/foto1.PNG" alt="Photography 1">
+            </div>
+            <div class="gallery-item">
+                <img src="images/foto2.PNG" alt="Photography 2">
+            </div>
+            <div class="gallery-item">
+                <img src="images/Desain%20tanpa%20judul%20-%201%202.PNG" alt="Photography 3">
+            </div>
+            <div class="gallery-item">
+                <img src="images/Desain%20tanpa%20judul%20-%207.PNG" alt="Photography 4">
+            </div>
+        </div>
+    </section>
+    <!-- ================= FOOTER ================= -->
+    <footer>
+        <div class="footer-big">
+            THANK YOU
+        </div>
+        <p>FOR VISITING MY CREATIVE SPACE</p>
+        <small>© 2026 Zivanka Herdiansyah Putri</small>
+    </footer>
+</body>
+</html>
